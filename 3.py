@@ -25,3 +25,4 @@ for i in range(0, len(stroka)):
         isChiper = False
 
 print(count)
+
