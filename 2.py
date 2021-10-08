@@ -24,7 +24,18 @@ else:
             result = str(x) + " " + str(y)
             break
 
+k = 1
+
+if x < 0 and y > 0:
+    k += 1
+elif x < 0 and y > 0:
+    k += 1
+elif x > 0 and y < 0:
+    k+=1
+elif x<0 and y < 0:
+    k+=2
+
 if len(result) > 1:
-    print("1 " + result)
+    print(k + " " + result)
 else:
     print("-1")
