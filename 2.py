@@ -25,6 +25,6 @@ else:
             break
 
 if len(result) > 1:
-    print("1" + result)
+    print("1 " + result)
 else:
     print("-1")
