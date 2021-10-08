@@ -25,17 +25,16 @@ else:
             break
 
 k = 1
-
 if x < 0 and y > 0:
     k += 1
 elif x < 0 and y > 0:
     k += 1
 elif x > 0 and y < 0:
-    k+=1
+    k += 1
 elif x<0 and y < 0:
-    k+=2
+    k += 2
 
 if len(result) > 1:
-    print(k + " " + result)
+    print(str(k) + " " + str(result))
 else:
     print("-1")
